@@ -1,3 +1,14 @@
+Developed a scalable data model for Sparkify, a music streaming startup, to efficiently analyze user activity and song play data. The project involved creating an Apache Cassandra database to support complex queries on user interactions with the app, specifically focusing on song listening patterns.
+
+Key tasks included:
+
+Designing and implementing Cassandra tables to optimize query performance.
+Using Python to complete an ETL pipeline that transferred and processed data from raw CSV files into the database. 
+
+Validating the database structure by running sample queries to ensure accurate data retrieval.
+
+This project demonstrated expertise in data modeling, ETL processes, and working with Apache Cassandra to support large-scale data analysis for business insights.
+
 # Data-Modeling-with-Apache-Cassandra
 Project 1 of Udacity's Data Engineering with AWS Nanodegree Program
 
