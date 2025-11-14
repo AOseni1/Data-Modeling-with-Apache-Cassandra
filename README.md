@@ -1,23 +1,16 @@
-Developed a scalable data model for Sparkify, a music streaming startup, to efficiently analyze user activity and song play data. The project involved creating an Apache Cassandra database to support complex queries on user interactions with the app, specifically focusing on song listening patterns.
+*Data Modeling with Apache Cassandra (Sparkify)*
 
-Key tasks included:
+Project Overview:
+Developed a scalable Cassandra database for Sparkify to efficiently analyze user interactions and song listening patterns. Built an ETL pipeline to process raw CSV files into the database and optimized table design for fast queries.
 
-Designing and implementing Cassandra tables to optimize query performance.
-Using Python to complete an ETL pipeline that transferred and processed data from raw CSV files into the database. 
+Key Features:
 
-Validating the database structure by running sample queries to ensure accurate data retrieval.
+Data modeling for query optimization in Apache Cassandra.
 
-This project demonstrated expertise in data modeling, ETL processes, and working with Apache Cassandra to support large-scale data analysis for business insights.
+ETL pipeline implementation in Python.
 
-# Data-Modeling-with-Apache-Cassandra
-Project 1 of Udacity's Data Engineering with AWS Nanodegree Program
+Validation of queries to ensure correct data retrieval for analytics.
 
-Project: Data Modeling with Cassandra  
-A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analysis team is particularly interested in understanding what songs users are listening to. Currently, there is no easy way to query the data to generate the results, since the data reside in a directory of CSV files on user activity on the app.  
-  
-They'd like a data engineer to create an Apache Cassandra database which can create queries on song play data to answer the questions, and wish to bring you on the project. Your role is to create a database for this analysis. You'll be able to test your database by running queries given to you by the analytics team from Sparkify to create the results.  
-  
-Project Overview:  
-In this project, you'll apply what you've learned on data modeling with Apache Cassandra and complete an ETL pipeline using Python. To complete the project, you will need to model your data by creating tables in Apache Cassandra to run queries. You are provided with part of the ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.  
-  
-We have provided you with a project template that takes care of all the imports and provides a structure for ETL pipeline you'd need to process this data.
+Technologies: Python, Apache Cassandra, ETL, Data Modeling
+
+Project Goals: Provide fast, reliable access to song play analytics to support business decisions.
